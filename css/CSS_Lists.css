@@ -1,0 +1,5 @@
+ol {list-style-type: decimal-leading-zero;
+}
+ul {list-style-type: georgian;
+}
+/**changes the ordered list to decimal numbers and the ul bullet points**/

@@ -1,0 +1,12 @@
+
+/**Styles a paragraph**/
+p {color: aqua;
+background-color: brown;
+font-size: x-large;
+text-align: right;
+}
+
+h2 { /**Adds a text inset shadow to a h2 heading**/
+  text-shadow: 0 -1px 0 #FFF, 0 2px 0 #43cb4e;
+}
+
