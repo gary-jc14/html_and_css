@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpage with Table Columns</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        /* Styles the border and text positon */
+        th, td {
+            border: 1px solid #777;
+            padding: 8px;
+            text-align: left;
+        }
+        /* Styles the header row */
+        thead tr {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Table with Columns</h1>
+
+    <table>
+        <colgroup>
+            <!-- Gives the 1st coloumn a light blue background -->
+            <col style="background-color: lightblue;">
+            
+            <!-- Colours the last 2 coloumns with a light yellow background -->
+            <col span="2" style="background-color: lightyellow;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>Item ID</th>
+                <th>Product</th>
+                <th>Category</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Laptop</td>
+                <td>Electronics</td>
+                
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Desktop</td>
+                <td>Electronics</td>
+                
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Tablet</td>
+                <td>Electronics</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
