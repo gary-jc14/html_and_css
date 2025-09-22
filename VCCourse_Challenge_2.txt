@@ -1,1 +1,0 @@
-Added this text file for my Bash/Terminal assignment
